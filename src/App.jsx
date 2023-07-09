@@ -92,7 +92,7 @@ function App() {
         <main className="p-10 text-white flex flex-col justify-center items-center gap-8 w-full h-screen bg-gray-900">
             {
                 index === 216 ?
-                    <div>
+                    <div className="font-bold text-4xl"}>
                         Votre Score est de {score}/{tableau.length}
                     </div>
                 :
